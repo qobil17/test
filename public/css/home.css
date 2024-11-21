@@ -25,7 +25,7 @@
   flex-direction: row;
 }
 
-.navbar-top > a img {
+.navbar-top a img {
   margin-right: 76px;
   width: 117px;
   height: 36px;
@@ -145,6 +145,7 @@
 }
 
 .box-icon-box img {
+  margin-left: 75px;
   width: 30px;
   height: 30px;
 }
