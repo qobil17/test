@@ -11,3 +11,305 @@ a {
 p {
   margin: 0;
 }
+
+.container {
+  position: relative;
+  width: 1320px;
+  height: auto;
+  display: flex;
+}
+
+/*NAVBAR*/
+
+.navbar-frame {
+  position: relative;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #443297;
+}
+
+.navbar-frame .container {
+  padding: 20px 0px 14px;
+  flex-direction: column;
+}
+
+.navbar-frame .navbar-top {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-frame .navbar-top a img {
+  margin-right: 76px;
+  width: 117px;
+  height: 36px;
+}
+
+.navbar-frame .navbar-top .nav-search-frame {
+  width: 640px;
+  height: 50px;
+  /*mana shu yerda width 650 edi "search icon" bilan oxirida joy ochilib qolgandi 640 qildim*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.navbar-frame .navbar-top .search-box {
+  padding: 10px 17px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-frame .search-box .category-list {
+  width: 166px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-right: 1px solid #d6d6d6;
+}
+
+.navbar-frame .category-list select {
+  width: 140px;
+  height: 30px;
+
+  border: none;
+  outline: none;
+
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.navbar-frame .search-box input {
+  margin-left: 12px;
+  width: 380px;
+  height: 22px;
+
+  border: none;
+  outline: none;
+
+  color: rgb(98, 105, 116);
+  font-family: Jost;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.navbar-frame .nav-search-frame .search-icon-box {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5c34b;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.navbar-frame .search-icon-box img {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-frame .navbar-top .nav-top-menu {
+  margin-left: 59px;
+  width: 416px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-frame .nav-top-menu .top-menu-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-frame .top-menu-box .box-icon-box {
+  position: relative;
+  width: 54px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgb(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.navbar-frame .box-icon-box img {
+  margin-left: 75px;
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-frame .top-menu-box .box-info-box {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-frame .box-info-box span {
+  /* [object Object] */
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.navbar-frame .box-info-box strong {
+  /* [object Object] */
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navbar-frame .box-icon-box .basket-count {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: -2px;
+  right: -3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f5c34b;
+  border-radius: 50%;
+  color: rgb(11, 30, 64);
+  font-family: jost;
+  font-style: normal;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.navbar-frame .navbar-bott {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-top: 1px solid #5746a1;
+}
+
+.navbar-frame .navbar-bott .navbar-bott-menu-box {
+  margin-top: 10px;
+
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-frame .navbar-bott-menu-box .browse-box {
+  width: 185px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid #5746a1;
+}
+
+.navbar-frame .browse-box img {
+  margin-right: 10px;
+  width: 20px;
+  height: 18px;
+}
+
+.navbar-frame .browse-box span {
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.navbar-frame .navbar-bott-menu-box .navbar-route-menu {
+  padding-top: 10px;
+  margin-left: 12px;
+  width: 690px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-frame .navbar-route-menu .router-menu {
+  margin-right: 40px;
+  width: auto;
+  height: 41px;
+
+  display: flex;
+}
+
+.navbar-frame .router-menu a {
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.navbar-frame .router-menu a.active {
+  color: #f5c34b;
+}
+
+.navbar-frame .navbar-route-menu .sorting-menu {
+  display: flex;
+  flex-direction: row;
+}
+.navbar-frame .sorting-menu span {
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: right;
+}
