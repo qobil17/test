@@ -38,6 +38,57 @@
   border-bottom: 2px solid #041e42;
 }
 
+/*PAGIONATION*/
+
+.container .pagionation-box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .pagionation-box .pagionation-main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .pagionation-main img {
+  cursor: pointer;
+}
+
+.container .pagionation-main .pagionation-dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .pagionation-dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.container .pagionation-dot .dot.active {
+  border: 2px solid #112137;
+}
+
+.container .pagionation-dot .dot div {
+  width: 4px;
+  height: 4px;
+  background: #112137;
+}
+
 .heade-frame {
   position: relative;
   margin-top: 47px;
@@ -329,7 +380,7 @@
   flex-direction: column;
 }
 
-.container .product-wrapper {
+.selling-product-frame .container .product-wrapper {
   position: relative;
   margin-top: 30px;
   width: 100%;
@@ -339,16 +390,17 @@
   justify-content: space-between;
 }
 
-.product-wrapper .next-prev-box {
+.selling-product-frame .product-wrapper .next-prev-box {
   width: 25px;
 }
 
-.next-prev-box img {
+.selling-product-frame .next-prev-box img {
   position: absolute;
   top: 50%;
+  cursor: pointer;
 }
 
-.product-wrapper .product-boxses {
+.selling-product-frame .product-wrapper .product-boxses {
   position: relative;
   width: 1224px;
   height: 452px;
@@ -357,7 +409,7 @@
   flex-direction: row;
 }
 
-.product-boxses .product-box {
+.selling-product-frame .product-boxses .product-box {
   width: 306px;
   height: 100%;
 
@@ -365,12 +417,12 @@
   flex-direction: column;
 }
 
-.product-box .product-img-box {
+.selling-product-frame .product-box .product-img-box {
   width: 100%;
   height: 280px;
 }
 
-.product-img-box .hover-box {
+.selling-product-frame .product-img-box .hover-box {
   display: none;
   width: 100%;
   height: 100%;
@@ -380,7 +432,7 @@
   align-items: center;
 }
 
-.hover-box button {
+.selling-product-frame .hover-box button {
   margin-bottom: 10px;
   width: 260px;
   height: 50px;
@@ -402,18 +454,18 @@
   color: #ffffff;
 }
 
-.product-img-box:hover .hover-box {
+.selling-product-frame .product-img-box:hover .hover-box {
   display: flex;
 }
 
-.product-box .product-content-box {
+.selling-product-frame .product-box .product-content-box {
   padding: 5px 22px;
   width: 100%;
   height: auto;
   box-sizing: border-box;
 }
 
-.product-content-box .product-title {
+.selling-product-frame .product-content-box .product-title {
   color: rgb(98, 105, 116);
   font-family: "Jost";
   font-style: normal;
@@ -423,7 +475,7 @@
   text-transform: uppercase;
 }
 
-.product-content-box .product-desc {
+.selling-product-frame .product-content-box .product-desc {
   margin-top: 7px;
   color: rgb(4, 30, 66);
   font-family: "Jost";
@@ -433,18 +485,18 @@
   line-height: 28px;
 }
 
-.product-content-box .review-box {
+.selling-product-frame .product-content-box .review-box {
   margin-top: 7px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.review-box img {
+.selling-product-frame .review-box img {
   margin-right: 5px;
 }
 
-.review-box span {
+.selling-product-frame .review-box span {
   margin-left: 10px;
   color: rgb(98, 105, 116);
   font-family: "Jost";
@@ -454,14 +506,14 @@
   line-height: 22px;
 }
 
-.product-content-box .price-box {
+.selling-product-frame .product-content-box .price-box {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.price-box strong {
+.selling-product-frame .price-box strong {
   color: rgb(4, 30, 66);
   font-family: "Jost";
   font-style: normal;
@@ -470,7 +522,7 @@
   line-height: 26px;
 }
 
-.price-box span {
+.selling-product-frame .price-box span {
   margin-left: 10px;
   color: rgb(98, 105, 116);
   font-family: "Jost";
@@ -479,4 +531,22 @@
   font-weight: 400;
   line-height: 22px;
   text-decoration-line: line-through;
+}
+
+.home-page .adv-frame {
+  margin-top: 90px;
+  width: 100%;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(0, 83, 246);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  background-color: #e5edff;
 }
