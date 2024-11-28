@@ -88,7 +88,14 @@
   height: 4px;
   background: #112137;
 }
+.container .hover-border {
+  margin-top: 3px;
+  width: 32px;
+  height: 2px;
 
+  background: #041e42;
+}
+/*HEAD*/
 .heade-frame {
   position: relative;
   margin-top: 47px;
@@ -236,14 +243,6 @@
   line-height: 22px;
 
   color: #041e42;
-}
-
-.heade-frame .box-left .hover-border {
-  margin-top: 3px;
-  width: 32px;
-  height: 2px;
-
-  background: #041e42;
 }
 
 .heade-frame .header-box .box-right {
@@ -549,4 +548,137 @@
   font-weight: 400;
   line-height: 26px;
   background-color: #e5edff;
+}
+/*HEADPHONES*/
+.home-page .headphones-frame {
+  margin-top: 90px;
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.headphones-frame .container {
+  flex-direction: column;
+}
+
+.container .headphones-wrapper {
+  position: relative;
+  margin-top: 35px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+.headphones-wrapper .headphone-right-item {
+  position: relative;
+  padding: 30px;
+  width: 664px;
+  height: 368px;
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  background: rgb(243, 245, 246);
+  border-radius: 6px;
+}
+
+.headphone-right-item .right-item-content {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.right-item-content span {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.right-item-content p {
+  margin: 7px 0;
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.right-item-content a {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.right-item-img img {
+  position: absolute;
+  width: 322px;
+  height: 309px;
+  right: 5%;
+}
+.headphones-wrapper .headphone-left-item {
+  position: relative;
+  margin-left: 30px;
+  width: 620px;
+  height: 368px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.headphone-left-item .left-item-box {
+  position: relative;
+  padding: 30px;
+  width: 293px;
+  height: 170px;
+
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background: #f3f5f6;
+  border-radius: 6px;
+}
+
+.left-item-box:nth-child(odd) {
+  margin-right: 30px;
+}
+
+.left-item-box .item-box-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-box-content strong {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.item-box-content span {
+  color: rgb(98, 105, 116);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.left-item-box img {
+  position: absolute;
+  right: 10%;
 }
