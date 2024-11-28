@@ -565,7 +565,7 @@
   flex-direction: column;
 }
 
-.container .headphones-wrapper {
+.headphones-frame .container .headphones-wrapper {
   position: relative;
   margin-top: 35px;
   width: 100%;
@@ -574,7 +574,7 @@
   display: flex;
   flex-direction: row;
 }
-.headphones-wrapper .headphone-right-item {
+.headphones-frame .headphones-wrapper .headphone-right-item {
   position: relative;
   padding: 30px;
   width: 664px;
@@ -587,14 +587,14 @@
   border-radius: 6px;
 }
 
-.headphone-right-item .right-item-content {
+.headphones-frame .headphone-right-item .right-item-content {
   width: 160px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.right-item-content span {
+.headphones-frame .right-item-content span {
   color: rgb(4, 30, 66);
   font-family: "Jost";
   font-style: normal;
@@ -602,7 +602,7 @@
   font-weight: 400;
   line-height: 22px;
 }
-.right-item-content p {
+.headphones-frame .right-item-content p {
   margin: 7px 0;
   color: rgb(4, 30, 66);
   font-family: "Jost";
@@ -612,7 +612,7 @@
   line-height: 38px;
 }
 
-.right-item-content a {
+.headphones-frame .right-item-content a {
   color: rgb(4, 30, 66);
   font-family: "Jost";
   font-style: normal;
@@ -621,13 +621,13 @@
   line-height: 22px;
 }
 
-.right-item-img img {
+.headphones-frame .right-item-img img {
   position: absolute;
   width: 322px;
   height: 309px;
   right: 5%;
 }
-.headphones-wrapper .headphone-left-item {
+.headphones-frame .headphones-wrapper .headphone-left-item {
   position: relative;
   margin-left: 30px;
   width: 620px;
@@ -638,7 +638,7 @@
   flex-wrap: wrap;
 }
 
-.headphone-left-item .left-item-box {
+.headphones-frame .headphone-left-item .left-item-box {
   position: relative;
   padding: 30px;
   width: 293px;
@@ -651,16 +651,16 @@
   border-radius: 6px;
 }
 
-.left-item-box:nth-child(odd) {
+.headphones-frame .left-item-box:nth-child(odd) {
   margin-right: 30px;
 }
 
-.left-item-box .item-box-content {
+.headphones-frame .left-item-box .item-box-content {
   display: flex;
   flex-direction: column;
 }
 
-.item-box-content strong {
+.headphones-frame .item-box-content strong {
   color: rgb(4, 30, 66);
   font-family: "Jost";
   font-style: normal;
@@ -669,7 +669,7 @@
   line-height: 28px;
 }
 
-.item-box-content span {
+.headphones-frame .item-box-content span {
   color: rgb(98, 105, 116);
   font-family: "Jost";
   font-style: normal;
@@ -678,7 +678,8 @@
   line-height: 22px;
 }
 
-.left-item-box img {
+.headphones-frame .left-item-box img {
   position: absolute;
   right: 10%;
+  bottom: 15px;
 }
