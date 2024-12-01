@@ -1,5 +1,4 @@
 .home-page {
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -760,6 +759,7 @@
   justify-content: center;
 
   background-color: rgb(68, 50, 151);
+  background-size: cover;
 }
 
 .event-frame .container {

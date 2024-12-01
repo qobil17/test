@@ -313,3 +313,224 @@ p {
   letter-spacing: 0%;
   text-align: right;
 }
+/*FOOTER*/
+
+.footer-frame {
+  position: relative;
+  padding: 90px 0 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #443297;
+  background: #f3f5f6;
+}
+
+.footer-frame .footer-spec-title {
+  display: block;
+  margin-bottom: 30px;
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.footer-frame .container {
+  flex-direction: column;
+}
+
+.footer-frame .container .footer-top {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-frame .top .footer-contact-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-frame .footer-contact-box .footer-contact-main {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-frame .footer-contact-main img {
+  width: 35px;
+  height: 30px;
+}
+
+.footer-frame .footer-contact-main div {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-frame .footer-contact-main div strong {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.footer-frame .footer-contact-main div span {
+  margin-top: 10px;
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.footer-frame .footer-support-box {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-frame .footer-support-box a {
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer-frame .footer-media-box {
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-frame .footer-media-box .footer-media-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-frame .footer-media-main .media-box {
+  display: flex;
+  flex-direction: row;
+}
+.footer-frame .media-box i {
+  margin-right: 25px;
+}
+
+.footer-frame .footer-media-main .mobile-app-box {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-frame .mobile-app-box img {
+  width: 24px;
+  height: 16px;
+}
+.footer-frame .mobile-app-box span {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #041e42;
+}
+.footer-frame .footer-media-main .card-box {
+  width: 272px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-frame .container .footer-bottom {
+  margin-top: 90px;
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer-frame .footer-bottom .footer-main {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-frame .footer-main .footer-bottom-left {
+  width: 940px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+.footer-frame .footer-bottom-left span {
+  margin-right: 60px;
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer-frame .footer-main .footer-bottom-right {
+  width: 400px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-frame .footer-bottom-right .footer-select-box {
+  padding: 10px 20px;
+  width: 188px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+}
+.footer-frame .footer-select-box span {
+  color: rgb(98, 105, 116);
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer-frame .footer-select-box select {
+  margin-left: 20px;
+  width: 70px;
+  height: 90px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: rgb(4, 30, 66);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
